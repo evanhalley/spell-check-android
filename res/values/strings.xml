@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Spell Check</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="spell_check">Spell Check</string>
+	<string name="check_spelling">Check Spelling</string>
+	<string name="add_word">Add Word</string>
+	<string name="enter_word">Enter Word</string>
+	<string name="word_added">Word added sucessfully</string>
+	<string name="word_not_add">Word not added</string>
+</resources>

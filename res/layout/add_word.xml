@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/enter_word"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:hint="@string/add_word"
+        android:id="@+id/editTextAddWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    
+    <Button
+        android:id="@+id/buttonAddWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="@string/add_word" />
+
+</LinearLayout>
